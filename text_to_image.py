@@ -51,6 +51,7 @@ if user_input:
             buffered = io.BytesIO()
             image.save(buffered, format="PNG")
             buffered.seek(0)
+            st.write("Want to download the image? ⬇️")
             st.download_button(
                 label="Download Image",
                 data=buffered,
