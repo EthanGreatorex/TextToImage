@@ -12,7 +12,7 @@ progress_text = "Operation in progress. Please wait. _may take up to a minute_"
 url = "https://huggingface.co/ZB-Tech/Text-to-Image"
 
 st.header("📝 Text to Image Generator 🖼️")
-st.info("_This project is only made possible thanks to ✨ Hugging Face ✨ AI models! Visit their website -> [🤗](%s)_" % url)
+st.info("_This project is only made possible thanks to ✨ Hugging Face AI models ✨! Visit their website -> [🤗](%s)_" % url)
 
 st.subheader('Your prompt please 🥺')
 st.write("e.g., _a cat drinking coffee on the moon 🌕_")
