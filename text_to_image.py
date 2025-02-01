@@ -14,7 +14,7 @@ url = "https://huggingface.co/ZB-Tech/Text-to-Image"
 st.header("📝 Text to Image Generator 🖼️")
 st.info("_This project is only made possible thanks to ✨ Hugging Face ✨ AI models! Visit their website -> [🤗](%s)_" % url)
 
-st.subheader('Your prompt please 🥺')
+st.subheader('Your prompt please')
 st.write("e.g., _a cat drinking coffee on the moon 🌕_")
 user_input = st.text_input("")
 
